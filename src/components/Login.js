@@ -39,7 +39,8 @@ export default function Login() {
     {
         isLoggedIn && 
         <>
-        <h1>{password}</h1>
+        <h1>Welcome!</h1>
+        <h2>{password}</h2>
         <button type="button" onClick={handleLogout}>Logout</button>
         </>
     }
